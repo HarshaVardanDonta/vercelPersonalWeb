@@ -65,9 +65,7 @@ function App() {
             Based in Hyderabad
           </div>
           <div className='homeSubText'>
-            I am a dedicated and proficient cross-plaƞorm applicaƟon developer with experƟse in
-            using FluƩer. With a passion for creating innovative and user-friendly mobile
-            applications, I aim to leverage my skills and experience to develop high-quality, versatile,
+            I am a dedicated cross-platform application developer specializing in Flutter, with a passion for creating innovative and user-friendly mobile applications. Skilled in developing high-quality, versatile, and performance-driven solutions for both Android and iOS platforms. I aim to leverage my technical expertise, creativity, and problem-solving abilities in a dynamic team or organization.
           </div>
           <div className='buttonContainer'>
             <div className='hireMeButton' onClick={() => {
