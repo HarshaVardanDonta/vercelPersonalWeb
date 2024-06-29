@@ -40,6 +40,10 @@ function App() {
                   if (index === 1) {
                     document.getElementById('section2')?.scrollIntoView({ behavior: 'smooth' })
                   }
+                  else if (index === 2) {
+                    window.open('https://drive.google.com/file/d/1q7v7HqbRlEpjfX_PGQip_h-e9WySD6qq/view?usp=sharing', '_blank')
+
+                  }
                   else if (index == 3) {
                     document.getElementById('section3')?.scrollIntoView({ behavior: 'smooth' })
                   }
@@ -66,10 +70,14 @@ function App() {
             applications, I aim to leverage my skills and experience to develop high-quality, versatile,
           </div>
           <div className='buttonContainer'>
-            <div className='hireMeButton'>
+            <div className='hireMeButton' onClick={() => {
+              document.getElementById('section3')?.scrollIntoView({ behavior: 'smooth' })
+            }}>
               Hire Me!
             </div>
-            <div className='downloadCV'>
+            <div className='downloadCV' onClick={() => {
+              window.open('https://drive.google.com/file/d/1q7v7HqbRlEpjfX_PGQip_h-e9WySD6qq/view?usp=sharing', '_blank')
+            }}>
               Download CV <IoIosCloudDownload />
             </div>
           </div>
