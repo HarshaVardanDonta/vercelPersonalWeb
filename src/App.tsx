@@ -119,6 +119,21 @@ function App() {
           <img src={Photo} className='section1Image' alt='pic' />
         </div>
       </div>
+      {width < 600 ?
+        <div>
+          <div style={{
+            backgroundColor: '#212121',
+            color: 'white',
+            padding: '20px',
+            textAlign: 'center',
+            fontSize: 30,
+            fontWeight: 'bold',
+
+          }}>
+            Portfolio
+          </div>
+          <br /></div>
+        : null}
       <div id='section2' className='section2'>
         <div className='portfolioBox'>
           <img src={Donar} alt=''></img>
